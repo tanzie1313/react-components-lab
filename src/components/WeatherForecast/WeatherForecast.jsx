@@ -1,8 +1,8 @@
 
 import react from 'react';
-import './WeatherForecast';
-import WeatherIcon from "./WeatherIcon/WeatherIcon.jsx"
-import WeatherData from "./WeatherData/WeatherData.jsx"
+import './WeatherForecast.jsx';
+import WeatherIcon from "../WeatherIcon/WeatherIcon.jsx"
+import WeatherData from "../WeatherData/WeatherData.jsx"
 
 const WeatherForecast = ({day, icon, alt, conditions, time}) => {
     return (

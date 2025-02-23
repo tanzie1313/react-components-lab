@@ -2,7 +2,7 @@
 
 import './App.css';
 import './index.css';
-import WeatherForecast from './components/WeatherForecast.jsx';
+import WeatherForecast from './components/WeatherForecast/WeatherForecast.jsx';
 
 const App = () => {
 const weatherForecasts = [
